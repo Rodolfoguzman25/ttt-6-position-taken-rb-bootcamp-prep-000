@@ -6,9 +6,9 @@ def position_taken?(array,position)
   elsif (array[position]==nil)
     FALSE
   elsif (array[position]=="X" || array[position]="O")
-    FALSE
-  else
     TRUE
+  else
+    nil
   end
 end
     
