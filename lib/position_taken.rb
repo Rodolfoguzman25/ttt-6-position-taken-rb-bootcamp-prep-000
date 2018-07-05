@@ -1,4 +1,4 @@
-def position_taken(array,position)
+def position_taken?(array,position)
   if (array[position]==" ")
     FALSE
   end
