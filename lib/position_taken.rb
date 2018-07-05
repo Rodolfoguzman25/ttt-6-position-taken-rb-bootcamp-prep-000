@@ -1,7 +1,7 @@
 def position_taken?(array,position)
   if (array[position]==" ")
     FALSE
-  elsif position==""
+  elsif array==""
     FALSE
   end
 end
