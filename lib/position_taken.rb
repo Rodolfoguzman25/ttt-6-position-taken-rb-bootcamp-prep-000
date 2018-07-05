@@ -3,6 +3,7 @@ def position_taken?(array,position)
     FALSE
   elsif (array[position]=="")  
     FALSE
+  elsif (array[position])==nil)
   end
 end
     
